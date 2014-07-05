@@ -121,7 +121,7 @@ public class ByteArrayResource extends AbstractResource {
 	 */
 	@Override
 	public int hashCode() {
-		return (byte[].class.hashCode() * 29 * this.byteArray.length);
+		return (29 * this.byteArray.length);
 	}
 
 }
